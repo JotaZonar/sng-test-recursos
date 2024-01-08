@@ -1,0 +1,24 @@
+{
+  "name": "sng-test-recursos",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Demo de microservicio de recursos. Transferencia Tecnológica SERNAGEOMIN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "nodemon -L --inspect=0.0.0.0:9120 --ext js,json,hjson --nolazy ./index.js ",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "luxon": "^3.4.4",
+    "mssql": "^10.0.1",
+    "node-fetch": "^3.3.2",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
